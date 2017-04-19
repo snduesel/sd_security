@@ -1,6 +1,18 @@
-# SD Security Plugin for WordPress
+# Security Plugin for WordPress
 
-Additionally add the following code into your .htaccess
+## Plugin Features
+* Stop user enumeration (?author=1)
+* Remove version param from any enqueued scripts
+* Remove version meta tag and from rss feed
+* Remove unnecessary header information
+* Remove error mesage in login
+* Remove various feeds
+* Remove xpingback header
+* Disable redirect to login page
+* Disable ping back scanner and complete xmlrpc class
+
+## Additional security config
+Add the following code into your .htaccess
 
 ```apacheconf
 <Files wp-config.php,.htaccess,.svn,error_log>
