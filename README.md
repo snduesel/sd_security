@@ -5,7 +5,7 @@
 * Remove version param from any enqueued scripts
 * Remove version meta tag and from rss feed
 * Remove unnecessary header information
-* Remove error mesage in login
+* Remove error message in login
 * Remove various feeds
 * Remove xpingback header
 * Disable redirect to login page
