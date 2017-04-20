@@ -59,3 +59,9 @@ Add the following code into your .htaccess
 	RewriteCond %{REQUEST_URI} union([^a]*a)+ll([^s]*s)+elect [NC]
 	RewriteRule ^(.*)$ http://127.0.0.1 [R=301,L]
 </IfModule>
+```
+## Additional WordPress config
+Add the following code into your wp-config.php
+```php
+//Disallow File Edit Setting In WordPress
+define( 'DISALLOW_FILE_EDIT', true );
